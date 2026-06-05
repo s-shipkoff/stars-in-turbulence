@@ -18,7 +18,7 @@ export default function Home() {
             Stars In Turbulence
           </p>
           <h1 className="font-display text-3xl font-bold leading-tight sm:text-4xl">
-            The <span className="text-gradient">origin of stars</span>
+            <span className="text-gradient">The origin of stars</span>
           </h1>
           <div className="mt-6 space-y-4 text-base leading-relaxed text-muted">
             <p>
