@@ -16,9 +16,9 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  title: "Paolo Padoan — Stars In Turbulence",
+  title: "Stars In Turbulence",
   description:
-    "Paolo Padoan studies the origin of stars through large-scale simulations of supersonic, magnetized, self-gravitating turbulence in the interstellar medium.",
+    "Origin of Massive Stars (ORMAS), star formation, ISM turbulence, planet formation, publications, and educational videos.",
 };
 
 export default function RootLayout({ children }) {
