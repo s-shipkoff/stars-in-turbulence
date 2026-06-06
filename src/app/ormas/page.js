@@ -143,7 +143,7 @@ export default function Ormas() {
           <p>
             The Origin of Massive Stars (ORMAS) project seeks to answer one of the
             major unsolved problems in astrophysics: what determines the mass of a
-            star, and how do the most massive stars form?
+            star, and how do high-mass stars form?
           </p>
           <p>
             Using state-of-the-art supercomputer simulations, ORMAS follows the
@@ -173,7 +173,7 @@ export default function Ormas() {
         }
       >
         <p>
-          Massive stars play a disproportionate role in the evolution of the
+          Massive stars play a very large role in the evolution of the
           universe. Their intense radiation, stellar winds, and eventual supernova
           explosions inject enormous amounts of energy into their surroundings,
           influencing the structure and evolution of entire galaxies.
@@ -181,7 +181,7 @@ export default function Ormas() {
         <p>
           These stars are also responsible for producing many of the heavy
           elements necessary for planets and life. Elements such as carbon,
-          oxygen, and iron are forged within stars and dispersed throughout
+          oxygen, and iron are created within stars and dispersed throughout
           galaxies when massive stars die. As a result, understanding how massive
           stars form is closely connected to understanding the origins of
           planetary systems, the chemical evolution of galaxies, and ultimately
@@ -275,12 +275,12 @@ export default function Ormas() {
           The formation of massive stars is an inherently multi-scale problem.
           Gas motions on scales of hundreds of parsecs influence the evolution of
           structures that ultimately feed individual stars on scales smaller than
-          the Earth–Sun distance.
+          1 AU.
         </p>
         <p>
           To capture this enormous range of scales, ORMAS uses a sequence of
           advanced three-dimensional magnetohydrodynamic simulations. The project
-          begins with a realistic simulation of a 250-parsec region of the
+          begins with a realistic simulation of a 250 pc region of the
           interstellar medium in which turbulence is naturally driven by supernova
           explosions.
         </p>
@@ -300,7 +300,7 @@ export default function Ormas() {
           ]}
         />
         <p>
-          The simulations are performed using the next-generation DISPATCH
+          The simulations are performed using the DISPATCH
           computational framework, which enables efficient modeling across nearly
           nine orders of magnitude in spatial scale, from roughly 250 parsecs
           down to 0.1 astronomical units.
@@ -499,9 +499,7 @@ export default function Ormas() {
             <p>
               To model stellar evolution consistently, ORMAS incorporates results
               from detailed calculations performed with the MESA stellar
-              evolution code. These calculations provide realistic stellar
-              luminosities, radii, temperatures, and feedback properties
-              throughout the accretion process. Machine-learning models trained
+              evolution code. Machine-learning models trained
               on large libraries of MESA simulations allow these stellar
               properties to be incorporated efficiently into large-scale
               calculations.
