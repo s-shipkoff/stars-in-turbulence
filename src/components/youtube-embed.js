@@ -12,9 +12,10 @@ export default function YouTubeEmbed({ id, title }) {
           allowFullScreen
         />
       </div>
-      {title && (
+      {/* title && (
         <p className="px-4 py-3 text-sm font-medium text-muted">{title}</p>
-      )}
+      ) */}
+      {/* title -> short description below the video, can add later if necessary */}
     </div>
   );
 }

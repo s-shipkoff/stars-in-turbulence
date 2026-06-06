@@ -81,18 +81,38 @@ export default function Home() {
       <section className="anchor py-12">
         <SectionHeading href={ADS_SEARCH}>Recent Work</SectionHeading>
         <p className="mb-8 max-w-2xl text-sm text-muted">
-          A selection of recent publications. Browse the full, up-to-date list
-          on NASA ADS.
+          A selection of recent publications. Browse the full list
+          on ADS.
         </p>
-        <PublicationThumbs count={8} />
+        <PublicationThumbs items={[
+          {
+            img: "/thumbnail/2026-06.png",
+            href: "https://ui.adsabs.harvard.edu/abs/2026ApJ..1003L..38P/abstract",
+            title: "Compact H II Regions as Clocks of Massive-star Formation: Evidence for Long Formation Timescales",
+          },
+          {
+            img: "/thumbnail/2026-04.png",
+            href: "https://ui.adsabs.harvard.edu/abs/2026arXiv260404501Z/abstract",
+            title: "Random gas motions inside sub-parsec scale supercritical filaments",
+          },
+          {
+            img: "/thumbnail/2025-11.png",
+            href: "https://ui.adsabs.harvard.edu/abs/2025MNRAS.544..483G/abstract",
+            title: "Globular cluster formation from inertial inflows: accreting extremely massive stars as the origin of abundance anomalies",
+          },
+          {
+            img: "/thumbnail/2025-06.png",
+            href: "https://ui.adsabs.harvard.edu/abs/2025NatAs...9..862P/abstract",
+            title: "The formation of protoplanetary disks through pre-main-sequence Bondi-Hoyle accretion",
+          },
+        ]} />
       </section>
 
       {/* Outreach */}
       <section className="py-12">
         <SectionHeading href={YOUTUBE_CHANNEL}>Outreach</SectionHeading>
         <p className="mb-8 max-w-2xl text-sm text-muted">
-          Short, visual explanations of how stars are born in turbulent
-          interstellar clouds. Watch more on the Stellar Origins channel.
+          Short, visual lessons about stars.
         </p>
         <div className="grid gap-6 md:grid-cols-3">
           {VIDEOS.map((video) => (
