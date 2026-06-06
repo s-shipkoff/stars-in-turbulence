@@ -15,14 +15,11 @@ export default function Publications() {
           Publications
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-base text-muted">
-          A selection of papers on supersonic turbulence, the interstellar
-          medium, and star and planet formation.
+          A selection of papers. To see all publications, click the link below.
         </p>
       </header>
 
-      <PublicationThumbs count={18} />
-
-      <div className="mt-12 text-center">
+      <div className="m-12 text-center">
         <a
           href={ADS_SEARCH}
           target="_blank"
@@ -33,6 +30,8 @@ export default function Publications() {
           <span className="text-stellar">↗</span>
         </a>
       </div>
+
+      <PublicationThumbs count={12} />
     </main>
   );
 }
