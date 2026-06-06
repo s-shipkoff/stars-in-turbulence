@@ -10,8 +10,8 @@ export default function Research() {
   return (
     <main className="mx-auto max-w-4xl px-6 py-16">
       <header className="text-center">
-        <h1 className="font-display text-4xl font-bold">
-          <span className="text-gradient">Research</span>
+        <h1 className="font-display text-4xl font-bold text-white">
+          Research
         </h1>
         <div className="mx-auto mt-6 max-w-2xl space-y-4 text-left text-base leading-relaxed text-muted">
           <p>

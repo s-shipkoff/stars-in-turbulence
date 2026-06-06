@@ -8,8 +8,8 @@ export default function About() {
   return (
     <main className="mx-auto max-w-3xl px-6 py-16">
       <header className="text-center">
-        <h1 className="font-display text-4xl font-bold">
-          <span className="text-gradient">About</span>
+        <h1 className="font-display text-4xl font-bold text-white">
+          About
         </h1>
       </header>
 
