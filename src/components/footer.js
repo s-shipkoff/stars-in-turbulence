@@ -11,6 +11,9 @@ export default function Footer() {
             <p className="mt-1 text-sm text-muted">
               Department of Physics &amp; Astronomy, Dartmouth College
             </p>
+            <p className="mt-1 text-sm text-muted">
+              Institute of Cosmos Sciences, University of Barcelona
+            </p>
           </div>
           <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted">
             <Link href="/research" className="hover:text-ink">
@@ -31,8 +34,7 @@ export default function Footer() {
           </div>
         </div>
         <p className="mt-8 text-xs text-muted/70">
-          © {new Date().getFullYear()} Paolo Padoan · Supported in part by NSF
-          award AST-2408023.
+          © {new Date().getFullYear()} Paolo Padoan.
         </p>
       </div>
     </footer>

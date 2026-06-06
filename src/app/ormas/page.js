@@ -100,8 +100,8 @@ export default function Ormas() {
         <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-stellar">
           NSF Award AST-2408023
         </p>
-        <h1 className="font-display text-4xl font-bold">
-          <span className="text-gradient">Origin of Massive Stars (ORMAS)</span>
+        <h1 className="font-display text-4xl font-bold text-white">
+          Origin of Massive Stars (ORMAS)
         </h1>
       </header>
 
@@ -389,7 +389,7 @@ export default function Ormas() {
       </CollapsibleSection>
 
       {/* Technical Details — unchanged, no image/bar layout */}
-      <details className="mt-14 group">
+      <details className="mt-8 group">
         <summary className="cursor-pointer list-none">
           <div className="flex items-center justify-between rounded-lg border border-stellar/30 bg-space/40 px-6 py-4 hover:border-stellar/60 transition-colors">
             <h2 className="font-display text-xl font-semibold text-star">

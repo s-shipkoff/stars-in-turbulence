@@ -11,8 +11,8 @@ export default function Outreach() {
   return (
     <main className="mx-auto max-w-6xl px-6 py-16">
       <header className="mb-10 text-center">
-        <h1 className="font-display text-4xl font-bold">
-          <span className="text-gradient">Outreach</span>
+        <h1 className="font-display text-4xl font-bold text-white">
+          Outreach
         </h1>
       </header>
 

@@ -11,8 +11,8 @@ export default function Publications() {
   return (
     <main className="mx-auto max-w-6xl px-6 py-16">
       <header className="mb-12 text-center">
-        <h1 className="font-display text-4xl font-bold">
-          <span className="text-gradient">Publications</span>
+        <h1 className="font-display text-4xl font-bold text-white">
+          Publications
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-base text-muted">
           A selection of papers on supersonic turbulence, the interstellar

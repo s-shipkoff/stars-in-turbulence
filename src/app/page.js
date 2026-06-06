@@ -17,8 +17,8 @@ export default function Home() {
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-stellar">
             Stars In Turbulence
           </p>
-          <h1 className="font-display text-3xl font-bold leading-tight sm:text-4xl">
-            <span className="text-gradient">The origin of stars</span>
+          <h1 className="font-display text-3xl font-bold leading-tight sm:text-4xl text-white">
+            The origin of stars
           </h1>
           <div className="mt-6 space-y-4 text-base leading-relaxed text-muted">
             <p>
