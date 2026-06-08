@@ -57,7 +57,7 @@ export default function AboutCarousel() {
       <div className="relative">
         <button
           onClick={prev}
-          className="absolute left-0 top-1/2 z-10 -translate-y-1/2 flex h-10 w-10 items-center justify-center rounded-full border border-nebula bg-space text-white transition-colors hover:bg-nebula"
+          className="absolute left-0 top-1/2 z-10 -translate-y-1/2 flex h-10 w-10 items-center justify-center rounded-full border border-nebula bg-transparent text-white transition-colors hover:bg-nebula"
           aria-label="Previous photo"
         >
           &#8592;
@@ -68,7 +68,7 @@ export default function AboutCarousel() {
             className="min-w-0 flex-[22] cursor-pointer opacity-40 transition-opacity hover:opacity-60"
             onClick={prev}
           >
-            <div className="relative h-[320px] w-full overflow-hidden rounded-lg">
+            <div className="relative h-[320px] w-full overflow-hidden rounded-lg bg-transparent">
               <Image
                 src={PHOTOS[leftIdx].src}
                 alt={PHOTOS[leftIdx].alt}
@@ -79,7 +79,7 @@ export default function AboutCarousel() {
           </div>
 
           <div className="min-w-0 flex-[56]">
-            <div className="relative h-[480px] w-full overflow-hidden rounded-lg shadow-2xl">
+            <div className="relative h-[480px] w-full overflow-hidden rounded-lg bg-transparent">
               <Image
                 src={PHOTOS[current].src}
                 alt={PHOTOS[current].alt}
@@ -93,7 +93,7 @@ export default function AboutCarousel() {
             className="min-w-0 flex-[22] cursor-pointer opacity-40 transition-opacity hover:opacity-60"
             onClick={next}
           >
-            <div className="relative h-[320px] w-full overflow-hidden rounded-lg">
+            <div className="relative h-[320px] w-full overflow-hidden rounded-lg bg-transparent">
               <Image
                 src={PHOTOS[rightIdx].src}
                 alt={PHOTOS[rightIdx].alt}
@@ -106,7 +106,7 @@ export default function AboutCarousel() {
 
         <button
           onClick={next}
-          className="absolute right-0 top-1/2 z-10 -translate-y-1/2 flex h-10 w-10 items-center justify-center rounded-full border border-nebula bg-space text-white transition-colors hover:bg-nebula"
+          className="absolute right-0 top-1/2 z-10 -translate-y-1/2 flex h-10 w-10 items-center justify-center rounded-full border border-nebula bg-transparent text-white transition-colors hover:bg-nebula"
           aria-label="Next photo"
         >
           &#8594;
