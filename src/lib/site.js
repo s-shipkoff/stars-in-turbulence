@@ -10,9 +10,9 @@ export const EMAIL = "ppadoan@icc.ub.edu";
 
 // Outreach videos featured on the Home and Outreach pages.
 export const VIDEOS = [
-  { id: "tSf1OpE2kl8", title: "Stellar Origins — How stars are born" },
-  { id: "aV0z7NL0rpM", title: "Turbulence in the interstellar medium" },
-  { id: "HYeycRw6rFk", title: "From clouds to stars and planets" },
+  { id: "tSf1OpE2kl8", title: "Learn about the origin of stars" },
+  { id: "aV0z7NL0rpM", title: "How stars are born" },
+  { id: "HYeycRw6rFk", title: "Learn about the life cycle of stars" },
 ];
 
 // Research areas. The `slug` doubles as the anchor id on the Research page,
