@@ -113,7 +113,7 @@ export default function AboutCarousel() {
         </button>
       </div>
 
-      <div className="mx-auto mt-4 max-w-xl rounded-xl border border-nebula/40 bg-transparent-2 px-6 py-4 text-center">
+      <div className="mx-auto mt-4 max-w-xl rounded-xl border border-nebula/40 bg-space-2 px-6 py-4 text-center">
         <p className="text-base leading-relaxed text-ink">
           {PHOTOS[current].caption}
         </p>
