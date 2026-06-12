@@ -1,4 +1,5 @@
 import Link from "next/link";
+import HeroBanner from "@/components/hero-banner";
 import YouTubeEmbed from "@/components/youtube-embed";
 import PublicationThumbs from "@/components/publication-thumbs";
 import {
@@ -10,7 +11,9 @@ import {
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-6xl px-6">
+    <>
+      <HeroBanner />
+      <main className="mx-auto max-w-6xl px-6">
       {/* Hero: intro text (left) | research entry points (right) */}
       <section className="grid items-start gap-12 py-16 md:grid-cols-2 md:py-24">
         <div>
@@ -120,7 +123,8 @@ export default function Home() {
           ))}
         </div>
       </section>
-    </main>
+      </main>
+    </>
   );
 }
 
