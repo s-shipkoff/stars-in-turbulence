@@ -23,8 +23,8 @@ export default function Navbar() {
       <div className="mx-auto flex h-full max-w-6xl items-center justify-between px-6">
         <Link href="/" className="group flex items-center gap-2.5">
           <span className="inline-block h-2.5 w-2.5 rounded-full bg-gradient-to-tr from-stellar to-star shadow-[0_0_12px_2px_rgba(56,189,248,0.6)]" />
-          <span className="font-display text-lg font-semibold tracking-tight">
-            Stars In Turbulence
+          <span className="ml-3 font-display text-lg font-semibold tracking-tight">
+            Paolo Padoan
           </span>
         </Link>
 

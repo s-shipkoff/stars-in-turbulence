@@ -15,14 +15,14 @@ export default function Home() {
       <HeroBanner />
       <main className="mx-auto max-w-6xl px-6">
       {/* Hero: intro text (left) | research entry points (right) */}
-      <section className="grid items-start gap-12 py-16 md:grid-cols-2 md:py-24">
+      <section className="grid items-start gap-12 py-12 md:grid-cols-2 md:py-24">
         <div>
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-stellar">
-            Stars In Turbulence
-          </p>
-          <h1 className="font-display text-3xl font-bold leading-tight sm:text-4xl text-white">
-            The origin of stars
+          <h1 className="mb-3 font-display text-4xl font-bold leading-tight sm:text-5xl text-white">
+            Paolo Padoan
           </h1>
+          <p className="ml-0.5 text-sm font-semibold uppercase tracking-[0.2em] text-stellar">
+            Stars in Turbulence
+          </p>
           <div className="mt-6 space-y-4 text-base leading-relaxed text-muted">
             <p>
               A major goal of my research is to understand the origin of stars.
@@ -43,7 +43,7 @@ export default function Home() {
         </div>
 
         <div>
-          <h2 className="font-display text-2xl font-bold">Research</h2>
+          <h2 className="mt-5 font-display text-2xl font-bold">My Research</h2>
           <div className="mt-5 space-y-3">
             {RESEARCH_AREAS.map((area) => (
               <Link
@@ -84,22 +84,17 @@ export default function Home() {
       <section className="anchor py-12">
         <SectionHeading href={ADS_SEARCH}>Recent Work</SectionHeading>
         <p className="mb-8 max-w-2xl text-sm text-muted">
-          A selection of recent publications. Browse the full list
+          A list of recent publications. Browse the full list
           on ADS.
         </p>
         <PublicationThumbs items={[
           {
-            img: "/thumbnail/2026-06.png",
+            img: "/thumbnail/2026-06v2.png",
             href: "https://ui.adsabs.harvard.edu/abs/2026ApJ..1003L..38P/abstract",
             title: "Compact H II Regions as Clocks of Massive-star Formation: Evidence for Long Formation Timescales",
           },
           {
-            img: "/thumbnail/2026-04.png",
-            href: "https://ui.adsabs.harvard.edu/abs/2026arXiv260404501Z/abstract",
-            title: "Random gas motions inside sub-parsec scale supercritical filaments",
-          },
-          {
-            img: "/thumbnail/2025-11.png",
+            img: "/thumbnail/2025-11v2.png",
             href: "https://ui.adsabs.harvard.edu/abs/2025MNRAS.544..483G/abstract",
             title: "Globular cluster formation from inertial inflows: accreting extremely massive stars as the origin of abundance anomalies",
           },
@@ -107,6 +102,11 @@ export default function Home() {
             img: "/thumbnail/2025-06.png",
             href: "https://ui.adsabs.harvard.edu/abs/2025NatAs...9..862P/abstract",
             title: "The formation of protoplanetary disks through pre-main-sequence Bondi-Hoyle accretion",
+          },
+          {
+            img: "/thumbnail/2026-04.png",
+            href: "https://ui.adsabs.harvard.edu/abs/2026arXiv260404501Z/abstract",
+            title: "Random gas motions inside sub-parsec scale supercritical filaments",
           },
         ]} />
       </section>
