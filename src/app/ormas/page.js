@@ -13,9 +13,9 @@ import nhNature from "@/lib/NH_nature.jpg";
 import dataCenter from "@/lib/data_center.jpg";
 
 export const metadata = {
-  title: "ORMAS — The Origin of Massive Stars",
+  title: "ORMAS — Paolo Padoan",
   description:
-    "ORMAS is an NSF-funded project (AST-2408023) at Dartmouth College studying how massive stars form in turbulent interstellar clouds.",
+    "Origin of Massive Stars (NSF award AST-2408023) at Dartmouth College studies how massive stars form.",
 };
 
 function BulletList({ items }) {

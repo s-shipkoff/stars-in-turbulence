@@ -16,9 +16,9 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  title: "Stars In Turbulence",
+  title: "Paolo Padoan — Stars In Turbulence",
   description:
-    "Origin of Massive Stars (ORMAS), star formation, ISM turbulence, planet formation, publications, and educational videos.",
+    "Personal website of astrophysicist Paolo Padoan. View publications, research, and contact information. Also learn about NSF award AST-2408023 Origin of Massive Stars (ORMAS).",
 };
 
 export default function RootLayout({ children }) {

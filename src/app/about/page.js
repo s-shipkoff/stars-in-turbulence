@@ -4,7 +4,7 @@ import AboutCarousel from "@/components/about-carousel";
 export const metadata = {
   title: "About — Paolo Padoan",
   description:
-    "Paolo Padoan is an astrophysicist studying how stars form in the turbulent, magnetized interstellar medium.",
+    "I am an astrophysicist studying how stars form in the turbulent, magnetized interstellar medium.",
 };
 
 function BulletList({ items }) {
@@ -42,7 +42,7 @@ export default function About() {
         </div>
         <div className="text-base leading-relaxed text-muted mt-4">
           <p>
-            I&apos;m Paolo Padoan, an astrophysicist studying how stars form in
+            I am Paolo Padoan, an astrophysicist studying how stars form in
             the turbulent, magnetized interstellar medium. My work combines
             theory and large-scale numerical simulations to connect the physics
             of supersonic turbulence and gravity to the properties of

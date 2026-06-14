@@ -4,7 +4,7 @@ import { VIDEOS, YOUTUBE_CHANNEL } from "@/lib/site";
 export const metadata = {
   title: "Outreach — Paolo Padoan",
   description:
-    "Visual explanations of how stars form in turbulent interstellar clouds, plus the energy footprint of large-scale computing.",
+    "Youtube videos and press releases about my research.",
 };
 
 export default function Outreach() {

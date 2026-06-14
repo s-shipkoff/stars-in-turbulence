@@ -4,7 +4,7 @@ import { ADS_SEARCH } from "@/lib/site";
 export const metadata = {
   title: "Publications — Paolo Padoan",
   description:
-    "Selected publications by Paolo Padoan. Browse the complete list on NASA ADS.",
+    "View my research publications.",
 };
 
 export default function Publications() {

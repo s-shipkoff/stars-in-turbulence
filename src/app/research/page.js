@@ -3,7 +3,7 @@ import { RESEARCH_AREAS } from "@/lib/site";
 export const metadata = {
   title: "Research — Paolo Padoan",
   description:
-    "Star formation in the turbulent, magnetized interstellar medium: star formation, ISM turbulence, and planet formation.",
+    "Learn about my research on star formation, ISM turbulence, and planet formation.",
 };
 
 export default function Research() {

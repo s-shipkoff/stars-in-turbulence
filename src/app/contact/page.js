@@ -2,7 +2,7 @@ import { EMAIL } from "@/lib/site";
 
 export const metadata = {
   title: "Contact — Paolo Padoan",
-  description: "Get in touch about research, collaboration, talks, and outreach.",
+  description: "Get in touch about research, collaboration, talks, or outreach.",
 };
 
 export default function Contact() {
