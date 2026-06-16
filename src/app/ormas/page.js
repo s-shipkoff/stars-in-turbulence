@@ -96,13 +96,24 @@ export default function Ormas() {
 
   return (
     <main className="mx-auto max-w-4xl px-6 py-16">
-      <header className="text-center mb-10">
-        <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-stellar">
-          NSF Award AST-2408023
-        </p>
-        <h1 className="font-display text-4xl font-bold text-white">
-          Origin of Massive Stars (ORMAS)
-        </h1>
+      <header className="mb-5 flex items-stretch justify-between gap-6">
+        <div className="flex flex-col justify-center">
+          <h1 className="font-display text-4xl font-bold text-white">
+            Origin of Massive Stars (ORMAS)
+          </h1>
+          <p className="mt-3 pl-1 text-sm font-semibold uppercase tracking-[0.2em] text-stellar">
+            NSF Award AST-2408023
+          </p>
+        </div>
+        <div className="shrink-0 flex items-center justify-center">
+          <Image
+            src="/nsf-logo.png"
+            alt="NSF logo"
+            width={100}
+            height={100}
+            className="rounded-full h-3/4 w-auto"
+          />
+        </div>
       </header>
 
       {/* Summary — image | text */}
