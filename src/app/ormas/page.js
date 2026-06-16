@@ -1,4 +1,5 @@
 import Image from "next/image";
+import PublicationThumbs from "@/components/publication-thumbs";
 import starFormationImg from "@/lib/250pc_star_formation_color.jpg";
 import tenPcImgA from "@/lib/10pc_star_formation_a.jpg";
 import tenPcImgB from "@/lib/10pc_star_formation_b.jpg";
@@ -166,6 +167,56 @@ export default function Ormas() {
           </p>
         </div>
       </div>
+
+      {/* Publications */}
+      <details className="mt-8 group">
+        <summary className="cursor-pointer list-none">
+          <div className="flex items-center justify-between rounded-lg border border-stellar/30 bg-space/40 px-6 py-4 hover:border-stellar/60 transition-colors">
+            <h2 className="font-display text-xl font-semibold text-star">
+              Publications
+            </h2>
+            <span className="text-stellar text-lg transition-transform duration-200 group-open:rotate-180">
+              ▾
+            </span>
+          </div>
+        </summary>
+        <div className="mt-1 rounded-lg border border-stellar/20 bg-space/20 px-6 py-8">
+          <div className="w-2/3 mx-auto">
+          <PublicationThumbs
+            cols={2}
+            items={[
+              {
+                img: "/thumbnail/2026-06v2.png",
+                href: "https://ui.adsabs.harvard.edu/abs/2026ApJ..1003L..38P/abstract",
+                title: "Compact H II Regions as Clocks of Massive-star Formation: Evidence for Long Formation Timescales",
+              },
+              {
+                img: "/thumbnail/2025-11v2.png",
+                href: "https://ui.adsabs.harvard.edu/abs/2025MNRAS.544..483G/abstract",
+                title: "Globular cluster formation from inertial inflows: accreting extremely massive stars as the origin of abundance anomalies",
+              },
+            ]}
+          />
+          </div>
+        </div>
+      </details>
+
+      {/* Conferences and Workshops */}
+      <details className="mt-8 group">
+        <summary className="cursor-pointer list-none">
+          <div className="flex items-center justify-between rounded-lg border border-stellar/30 bg-space/40 px-6 py-4 hover:border-stellar/60 transition-colors">
+            <h2 className="font-display text-xl font-semibold text-star">
+              Conferences and Workshops
+            </h2>
+            <span className="text-stellar text-lg transition-transform duration-200 group-open:rotate-180">
+              ▾
+            </span>
+          </div>
+        </summary>
+        <div className="mt-1 rounded-lg border border-stellar/20 bg-space/20 px-6 py-8 text-base leading-relaxed text-muted">
+          <p>Conf and Workshops</p>
+        </div>
+      </details>
 
       {/* Scientific Motivation — text | video (vertically centered) */}
       <CollapsibleSection

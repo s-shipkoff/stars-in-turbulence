@@ -43,12 +43,17 @@ function Tile({ index, href, title, img }) {
   );
 }
 
-export default function PublicationThumbs({ count = 8, items }) {
+export default function PublicationThumbs({ count = 8, items, cols }) {
   const entries =
     items ?? Array.from({ length: count }, () => ({ href: undefined }));
 
+  const gridClass =
+    cols === 3 ? "grid-cols-3" :
+    cols === 2 ? "grid-cols-2" :
+    "grid-cols-2 sm:grid-cols-3 lg:grid-cols-4";
+
   return (
-    <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+    <div className={`grid gap-4 ${gridClass}`}>
       {entries.map((entry, i) => (
         <Tile key={i} index={i} href={entry.href} title={entry.title} img={entry.img} />
       ))}
