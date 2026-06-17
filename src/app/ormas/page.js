@@ -213,8 +213,100 @@ export default function Ormas() {
             </span>
           </div>
         </summary>
-        <div className="mt-1 rounded-lg border border-stellar/20 bg-space/20 px-6 py-8 text-base leading-relaxed text-muted">
-          <p>Conf and Workshops</p>
+        <div className="mt-1 rounded-lg border border-stellar/20 bg-space/20 px-6 py-8">
+          <div className="space-y-10">
+
+            <div>
+              <h3 className="font-display text-lg font-semibold text-star mb-4">
+                Bridging Gaps in High-Mass Star Research: Physical Parameters, Formation and Evolution
+              </h3>
+              <a href="https://www.munich-iapbp.de/brahms" target="_blank" rel="noreferrer" className="relative inline-block group/conf overflow-hidden rounded-lg">
+                <img
+                  src="/conf-and-work/miapbp.jpg"
+                  alt="MIAPbP conference"
+                  className="max-h-48 w-auto block"
+                />
+                <div className="absolute inset-0 flex items-center justify-center bg-black/0 group-hover/conf:bg-black/70 transition-colors duration-200">
+                  <span className="font-display font-semibold text-white opacity-0 group-hover/conf:opacity-100 transition-opacity duration-200">Learn more about the conference</span>
+                </div>
+              </a>
+            </div>
+
+            <div>
+              <h3 className="font-display text-lg font-semibold text-star mb-4">
+                CMF2IMF: The Origin of the Stellar Initial Mass Function
+              </h3>
+              <a href="https://www.eso.org/sci/meetings/2026/CMF2IMF.html" target="_blank" rel="noreferrer" className="relative inline-block group/conf overflow-hidden rounded-lg">
+                <img
+                  src="/conf-and-work/cmf2imf.jpg"
+                  alt="CMF2IMF conference"
+                  className="max-h-48 w-auto block"
+                />
+                <div className="absolute inset-0 flex items-center justify-center bg-black/0 group-hover/conf:bg-black/70 transition-colors duration-200">
+                  <span className="font-display font-semibold text-white opacity-0 group-hover/conf:opacity-100 transition-opacity duration-200">Learn more about the conference</span>
+                </div>
+              </a>
+              <div className="mt-4">
+                <p className="text-sm font-semibold uppercase tracking-[0.1em] text-stellar mb-3">Presentation</p>
+                <a href="/conf-and-work/CMF2IMF.pdf" target="_blank" rel="noreferrer" className="relative inline-block group/pres overflow-hidden rounded-lg">
+                  <img
+                    src="/conf-and-work/cmf2imf_cover.png"
+                    alt="CMF2IMF presentation cover"
+                    className="max-h-44 w-auto block"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center bg-black/0 group-hover/pres:bg-black/70 transition-colors duration-200">
+                    <span className="font-display font-semibold text-white opacity-0 group-hover/pres:opacity-100 transition-opacity duration-200">View the presentation</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="font-display text-lg font-semibold text-star mb-4">
+                Structure and Energy in the Universe: From Interstellar Clouds to Cosmic Explosions
+              </h3>
+              <a href="https://ecl.nu.edu.kz/conference-2026/seu" target="_blank" rel="noreferrer" className="relative inline-block group/conf overflow-hidden rounded-lg">
+                <img
+                  src="/conf-and-work/nazarbayev.jpg"
+                  alt="Nazarbayev University conference"
+                  className="max-h-48 w-auto block"
+                />
+                <div className="absolute inset-0 flex items-center justify-center bg-black/0 group-hover/conf:bg-black/70 transition-colors duration-200">
+                  <span className="font-display font-semibold text-white opacity-0 group-hover/conf:opacity-100 transition-opacity duration-200">Learn more about the conference</span>
+                </div>
+              </a>
+              <div className="mt-4">
+                <p className="text-sm font-semibold uppercase tracking-[0.1em] text-stellar mb-3">Presentation</p>
+                <a href="/conf-and-work/HII_regions_ASTANA_2026.pdf" target="_blank" rel="noreferrer" className="relative inline-block group/pres overflow-hidden rounded-lg">
+                  <img
+                    src="/conf-and-work/HII_regions_cover.png"
+                    alt="HII regions presentation cover"
+                    className="max-h-44 w-auto block"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center bg-black/0 group-hover/pres:bg-black/70 transition-colors duration-200">
+                    <span className="font-display font-semibold text-white opacity-0 group-hover/pres:opacity-100 transition-opacity duration-200">View the presentation</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="font-display text-lg font-semibold text-star mb-4">
+                The Origin of Multiple Populations in Globular Clusters
+              </h3>
+              <a href="https://teams.issibern.ch/multiplepopulationsclusters/" target="_blank" rel="noreferrer" className="relative inline-block group/conf overflow-hidden rounded-lg">
+                <img
+                  src="/conf-and-work/globular_cluster.jpg"
+                  alt="Globular cluster workshop"
+                  className="max-h-48 w-auto block"
+                />
+                <div className="absolute inset-0 flex items-center justify-center bg-black/0 group-hover/conf:bg-black/70 transition-colors duration-200">
+                  <span className="font-display font-semibold text-white opacity-0 group-hover/conf:opacity-100 transition-opacity duration-200">Learn more about the workshop</span>
+                </div>
+              </a>
+            </div>
+
+          </div>
         </div>
       </details>
 
