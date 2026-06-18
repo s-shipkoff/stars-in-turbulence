@@ -22,18 +22,18 @@ export const RESEARCH_AREAS = [
     slug: "star-formation",
     title: "Star Formation",
     blurb:
-      "How turbulence and gravity concentrate gas into filaments, hubs, and collapsing regions; when and where collapse begins; and how gas is transported to forming stars.",
+      "The origin of stars is a fundamental problem of astrophysics. Stars are formed in cold interstellar clouds by the interaction of gravity, magnetic fields, and turbulence. A goal of my research is to explain the origin of their mass and formation rate.",
   },
   {
     slug: "ism-turbulence",
     title: "ISM Turbulence",
     blurb:
-      "The structure and statistics of supersonic turbulence, the role of magnetic fields, and how turbulent flows regulate density fluctuations, fragmentation, and star-formation efficiency.",
+      "Because star-forming gas is highly turbulent, the study of star formation involves the study of turbulence as well. I carry out supercomputer simulations of supersonic, self-gravitating, magnetized turbulence to model observed star-forming regions.",
   },
   {
     slug: "planet-formation",
     title: "Planet Formation",
     blurb:
-      "How protoplanetary disks are assembled and sustained around young stars; whether they are finite remnants of core collapse or are continually fed by accretion from the surrounding cloud; how mass and angular momentum are delivered, redistributed, and lost; and how disk structure, turbulence, magnetic fields, and inflow regulate fragmentation, dust growth, and the efficiency and timescale of planet formation.",
+      "Observational evidence shows planet formation occurs rapidly during the earliest phases of circumstellar disk evolution. My research focuses on the study of these early phases of disk evolution, as they define the initial conditions for planet formation. ",
   },
 ];

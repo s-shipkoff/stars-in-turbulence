@@ -42,9 +42,6 @@ export default function Research() {
             className="anchor card scroll-mt-24 p-7 sm:p-9"
           >
             <div className="flex items-baseline gap-4">
-              <span className="font-display text-2xl font-bold text-white/20">
-                {String(i + 1).padStart(2, "0")}
-              </span>
               <h2 className="font-display text-2xl font-bold">{area.title}</h2>
             </div>
             <p className="mt-4 text-base leading-relaxed text-muted">
